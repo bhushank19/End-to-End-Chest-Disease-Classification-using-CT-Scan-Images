@@ -19,7 +19,7 @@ f"src/{project_name}/constants/__init__.py",
 "config/config.yaml",
 "dvc.yaml",
 "params.yaml",
-"requirments.txt",
+"requirements.txt",
 "setup.py",
 "research/trials.ipynb",
 "templates/index.html"
