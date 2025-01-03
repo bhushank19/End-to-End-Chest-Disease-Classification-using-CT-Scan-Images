@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/bhushankale/Desktop/Data/Study/My%20Study/AI-ML%20Study/AI-ML%20Projects/Chest%20Disease%20Classification/Code/research/mlruns/0/3d0d0323a0af4fbca3bf9f5563edb244/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d0d0323a0af4fbca3bf9f5563edb244
+run_name: enthused-bee-569
+run_uuid: 3d0d0323a0af4fbca3bf9f5563edb244
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735911706500
+status: 1
+tags: []
+user_id: bhushankale

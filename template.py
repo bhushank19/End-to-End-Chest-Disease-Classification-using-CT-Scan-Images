@@ -4,7 +4,7 @@ from pathlib import Path
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = 'cnnClassificer'
+project_name = 'cnnClassifier'
 
 list_of_files = [
 ".github/workflows/",
