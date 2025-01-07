@@ -58,20 +58,20 @@ with mlflow.start_run():
 ### Mlflow dagshub connection uri
 
 ```bash
-MLFLOW_TRACKING_URI=https://dagshub.com/bhushank19/MLflow-Exp-Demo.mlflow \
+MLFLOW_TRACKING_URI=https://dagshub.com/bhushank19/End-to-End-Chest-Disease-Classification-using-CT-Scan-Images.mlflow \
 MLFLOW_TRACKING_USERNAME=bhushank19 \
-MLFLOW_TRACKING_PASSWORD=0a13f7493795ca4121f28ca33f37d09a5faadbc8 \
+MLFLOW_TRACKING_PASSWORD=REPLACE_PASSWORD \
 python script.py
 ```
 
 ### RUN from bash terminal
 
 ```bash
-export MLFLOW_TRACKING_URI=https://dagshub.com/bhushank19/MLflow-Exp-Demo.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/bhushank19/End-to-End-Chest-Disease-Classification-using-CT-Scan-Images.mlflow
 
 export MLFLOW_TRACKING_USERNAME=bhushank19
 
-export MLFLOW_TRACKING_PASSWORD=0a13f7493795ca4121f28ca33f37d09a5faadbc8
+export MLFLOW_TRACKING_PASSWORD=REPLACE_PASSWORD
 
 ```
 

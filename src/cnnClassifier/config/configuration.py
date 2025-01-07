@@ -3,6 +3,7 @@ from cnnClassifier.utils.common import read_yaml, create_directories
 from cnnClassifier.entity.config_entity import PrepareBaseModelConfig
 from cnnClassifier.entity.config_entity import DataIngestionConfig
 from cnnClassifier.entity.config_entity import TrainingConfig
+from cnnClassifier.entity.config_entity import EvaluationConfig
 from pathlib import Path
 import os
 
@@ -70,3 +71,16 @@ class ConfigurationManager:
         )
 
         return training_config
+    
+
+
+    def get_evaluation_config(self) -> EvaluationConfig:
+          eval_config = EvaluationConfig(
+                path_of_model='artifacts/training/trained_model.h5',
+                training_data='artifacts/data_ingestion/Chest-CT-Scan-data',
+                mlflow_uri='https://dagshub.com/bhushank19/End-to-End-Chest-Disease-Classification-using-CT-Scan-Images.mlflow',
+                all_params=self.params,
+                params_image_size=self.params.IMAGE_SIZE,
+                params_batch_size=self.params.BATCH_SIZE
+          )
+          return eval_config
